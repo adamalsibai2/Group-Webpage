@@ -4,52 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team Bio</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
 
 <header>
-    <h1>Meet Our Team</h1>
-    <!-- Example team logo -->
-    <img src="img/team-logo.png" alt="Team Logo" class="team-logo">
+    <h1>C.Q.Z Team</h1>
+    <img src="img/moodboard.png" alt="Team Logo" class="team-logo">
 
-    <!-- Navigation menu to switch between sections -->
     <nav>
         <button onclick="showSection('bios')">Team Bios</button>
         <button onclick="showSection('vision')">Team Vision</button>
     </nav>
 </header>
 
-<!-- Team bios section (default section) -->
-<div id="bios" class="container">
-    <!-- Each card represents an individual team member -->
-    <div class="card">
-        <h2>John Doe</h2>
-        <p>Frontend Developer</p>
-        <button onclick="toggleBio('bio1')">Show Bio</button>
-        <p id="bio1" class="bio">John is a skilled frontend developer with 5 years of experience in creating responsive web applications.</p>
-    </div>
-    <div class="card">
-        <h2>Jane Smith</h2>
-        <p>Backend Developer</p>
-        <button onclick="toggleBio('bio2')">Show Bio</button>
-        <p id="bio2" class="bio">Jane is a backend developer specializing in server-side logic and database management.</p>
-    </div>
-    <div class="card">
-        <h2>Emily Johnson</h2>
-        <p>UI/UX Designer</p>
-        <button onclick="toggleBio('bio3')">Show Bio</button>
-        <p id="bio3" class="bio">Emily is a UI/UX designer with a passion for creating user-friendly interfaces.</p>
-    </div>
+<div class="card">
+    <img src="img/zach_willis.png" alt="Zach Willis" class="avatar">
+    <h2>Zach Willis</h2>
+    <p>Scrum Master</p>
+    <button onclick="toggleBio('bio1')">Show Bio</button>
+    <p id="bio1" class="bio">Zach focuses on facilitating the Scrum process, ensuring the team adheres to Agile principles and helps remove any impediments that may hinder progress.</p>
 </div>
 
-<!-- Team vision/mission statement section (hidden by default) -->
-<div id="vision" class="container" style="display: none;">
+<div class="card">
+    <img src="img/Quanfei_Li.png" alt="Quanfei Li" class="avatar">
+    <h2>Quanfei Li</h2>
+    <p>Developer</p>
+    <button onclick="toggleBio('bio2')">Show Bio</button>
+    <p id="bio2" class="bio">Quanfei specializes in developing the application's features, implementing robust code, and collaborating with team members to ensure high-quality delivery.</p>
+</div>
+
+<div class="card">
+    <img src="img/Caden_Clark.png" alt="Caden Clark" class="avatar">
+    <h2>Caden Clark</h2>
+    <p>Product Owner</p>
+    <button onclick="toggleBio('bio3')">Show Bio</button>
+    <p id="bio3" class="bio">Caden ensures that the application delivers value to users and meets business objectives by prioritizing the product backlog and gathering feedback from stakeholders.</p>
+</div>
+    </p>
+</div>  
+
+<div id="vision" class="container">
     <h2>Our Mission Statement</h2>
     <p>We strive to create a collaborative, inclusive, and innovative environment where team members feel empowered to push boundaries and achieve excellence in their craft. Our mission is to deliver high-quality solutions that meet and exceed our clients' expectations.</p>
 </div>
 
-<script src="script.js"></script> <!-- Link to external JavaScript file -->
-
+<script src="script.js"></script> 
 </body>
 </html>
